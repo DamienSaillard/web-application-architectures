@@ -1,5 +1,3 @@
-<script type="text/javascript">  
-
 var rental = {
   "cars": [
     {
@@ -85,6 +83,5 @@ function getRentalPrice(driver)
 
 for(var i = 0; i < drivers.length; i++)
 {
-	document.write(drivers[i].driver.firstName + ' :' + getRentalPrice(drivers[i]) + '</br>');
+	document.write(drivers[i].driver.firstName + ': ' + getRentalPrice(drivers[i]) + '</br>');
 }
-</script> 
